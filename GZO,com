@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- IMPORTANTE PARA CELULARES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GZO | Tienda de Videojuegos</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(90deg, #7c3aed, #2563eb);
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #020617;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: #e5e7eb;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        .titulo-seccion {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #38bdf8;
+        }
+
+        .descripcion {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            font-size: 18px;
+        }
+
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .producto {
+            background-color: #020617;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.6);
+            text-align: center;
+        }
+
+        /* IMÁGENES */
+        .producto img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .producto h3 {
+            margin-bottom: 10px;
+            color: #a5b4fc;
+        }
+
+        .producto p {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+
+        .precio {
+            font-size: 20px;
+            font-weight: bold;
+            color: #22c55e;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #38bdf8;
+            color: #020617;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0ea5e9;
+            transform: scale(1.1);
+        }
+
+        .categorias {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .categoria {
+            background-color: #020617;
+            padding: 30px;
+            width: 250px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .categoria h3 {
+            margin-bottom: 10px;
+            color: #f472b6;
+        }
+
+        footer {
+            background-color: #020617;
+            padding: 30px;
+            text-align: center;
+            margin-top: 60px;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* RESPONSIVE CELULAR */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section {
+                padding: 40px 5%;
+            }
+
+            .titulo-seccion {
+                font-size: 28px;
+            }
+
+            .descripcion {
+                font-size: 16px;
+            }
+
+            .categoria {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>GZO</h1>
+    <p>La mejor tienda de videojuegos y consolas</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#categorias">Categorías</a>
+    <a href="#juegos">Juegos</a>
+    <a href="#consolas">Consolas</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+    <h2 class="titulo-seccion">Bienvenido a GZO</h2>
+    <p class="descripcion">
+        GZO es una tienda especializada en la venta de videojuegos,
+        consolas y accesorios, ofreciendo productos de alta calidad
+        para todos los amantes del mundo gamer.
+    </p>
+</section>
+
+<section id="categorias">
+    <h2 class="titulo-seccion">Categorías</h2>
+    <div class="categorias">
+        <div class="categoria">
+            <h3>Acción</h3>
+            <p>Combate, adrenalina y emoción.</p>
+        </div>
+        <div class="categoria">
+            <h3>Aventura</h3>
+            <p>Historias épicas y exploración.</p>
+        </div>
+        <div class="categoria">
+            <h3>Deportes</h3>
+            <p>Fútbol, baloncesto y más.</p>
+        </div>
+        <div class="categoria">
+            <h3>Carreras</h3>
+            <p>Velocidad extrema.</p>
+        </div>
+    </div>
+</section>
+
+<section id="juegos">
+    <h2 class="titulo-seccion">Juegos Destacados</h2>
+  <div class="productos">
+    <div class="producto">
+        <img src="img/foto8.jpg" alt="Super Mario Odyssey">
+        <h3>Super Mario Odyssey</h3>
+        <p>Aventura clásica de Nintendo.</p>
+        <div class="precio">$60</div>
+        <a href="#" class="btn">Comprar</a>
+    </div>
+</div>
+
+</section>
+
+<section id="cartuchos">
+    <h2 class="titulo-seccion">Consolas</h2>
+    <div class="productos">
+        <div class="producto">
+            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto 2.jpg" alt="PlayStation 5">
+            <h3>PlayStation 5</h3>
+            <p>Nueva generación.</p>
+            <div class="precio">$500</div>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="producto">
+            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto3.jpg" alt="Xbox Series X">
+            <h3>Xbox Series X</h3>
+            <p>Rendimiento extremo.</p>
+            <div class="precio">$480</div>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="producto">
+            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto5.jpg" alt="Xbox Series X">
+            <h3>Xbox Series X</h3>
+            <p>Rendimiento extremo.</p>
+            <div class="precio">$480</div>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+         <div class="producto">
+            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto4.jpg" alt="Xbox Series X">
+            <h3>Xbox Series X</h3>
+            <p>Rendimiento extremo.</p>
+            <div class="precio">$480</div>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+         <div class="producto">
+            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto6.jpg" alt="Xbox Series X">
+            <h3>Xbox Series X</h3>
+            <p>Rendimiento extremo.</p>
+            <div class="precio">$480</div>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="producto">
+            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto7.jpg" alt="Xbox Series X">
+            <h3>Xbox Series X</h3>
+            <p>Rendimiento extremo.</p>
+            <div class="precio">$480</div>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2 class="titulo-seccion">Contacto</h2>
+    <p class="descripcion">
+        Dirección: Santo Domingo<br>
+        Teléfono: 239-314-8854<br>
+        Correo: contacto@gzo.com
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 GZO</p>
+    <p>Tienda de Videojuegos - Proyecto Educativo</p>
+</footer>
+
+</body>
+</html>
