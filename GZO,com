@@ -255,51 +255,43 @@
     <h2 class="titulo-seccion">Consolas</h2>
     <div class="productos">
         <div class="producto">
-            <img src="foto 2.jpg" alt="PlayStation 5">
-            <h3>PlayStation 5</h3>
-            <p>Nueva generación.</p>
-            <div class="precio">$500</div>
-            <a href="#" class="btn">Comprar</a>
+            <img src="foto 2.jpg" alt="cartucho">
+            <h3>cartucho</h3>
+            <p>divercion retro.</p>
         </div>
 
         <div class="producto">
-            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto3.jpg" alt="Xbox Series X">
-            <h3>Xbox Series X</h3>
-            <p>Rendimiento extremo.</p>
-            <div class="precio">$480</div>
-            <a href="#" class="btn">Comprar</a>
+            <img src="foto1.jpg" alt="cartucho">
+            <h3>pit X</h3>
+            <p>surcalos cielos.</p>
         </div>
 
         <div class="producto">
-            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto5.jpg" alt="Xbox Series X">
-            <h3>Xbox Series X</h3>
-            <p>Rendimiento extremo.</p>
+            <img src="foto5.jpg" alt="cartucho">
+            <h3>kirby retro</h3>
+            <p>salva dream land.</p>
+        </div>
+
+         <div class="producto">
+            <img src="foto4.jpg" alt="cartucho">
+            <h3>delfin</h3>
+            <p>diviertete y explora el mar.</p>
             <div class="precio">$480</div>
             <a href="#" class="btn">Comprar</a>
         </div>
 
          <div class="producto">
-            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto4.jpg" alt="Xbox Series X">
-            <h3>Xbox Series X</h3>
-            <p>Rendimiento extremo.</p>
-            <div class="precio">$480</div>
-            <a href="#" class="btn">Comprar</a>
-        </div>
-
-         <div class="producto">
-            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto6.jpg" alt="Xbox Series X">
-            <h3>Xbox Series X</h3>
-            <p>Rendimiento extremo.</p>
+            <img src="foto6.jpg" alt="cartucho">
+            <h3>el juego secreto</h3>
+            <p>que te llevara el juego football o que la curiosidad te matara por averiguarlo</p>
             <div class="precio">$480</div>
             <a href="#" class="btn">Comprar</a>
         </div>
 
         <div class="producto">
-            <img src="c:\Users\yeudy\OneDrive\Escritorio\fotos\foto7.jpg" alt="Xbox Series X">
-            <h3>Xbox Series X</h3>
-            <p>Rendimiento extremo.</p>
-            <div class="precio">$480</div>
-            <a href="#" class="btn">Comprar</a>
+            <img src="foto7.jpg" alt="cartucho">
+            <h3>delfin X</h3>
+            <p>wow reluce tu hogar y busca mas delfines</p>
         </div>
     </div>
 </section>
